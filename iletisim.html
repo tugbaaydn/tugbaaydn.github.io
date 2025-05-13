@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giresun İletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+       <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkinda.html">Hakkında</a></li>
+                <li><a href="tarihi-yerler.html">Tarihi Yerler</a></li>
+                <li><a href="dogal-guzellikler.html">Doğal Güzellikler</a></li>
+                <li><a href="form.html">Ziyaretçi Yorumları</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- İletişim Formu -->
+    <section class="contact">
+        <h1>Bizimle İletişime Geçin</h1>
+        <p>Herhangi bir sorunuz ya da öneriniz varsa bizimle iletişime geçebilirsiniz.</p>
+
+        <form id="contact-form">
+            <label for="contact-name">Adınız:</label>
+            <input type="text" id="contact-name" name="name" required><br><br>
+
+            <label for="contact-email">E-posta Adresiniz:</label>
+            <input type="email" id="contact-email" name="email" required><br><br>
+
+            <label for="contact-message">Mesajınız:</label><br>
+            <textarea id="contact-message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Giresun Gezilecek Yerler | Tüm Hakları Saklıdır</p>
+    </footer>
+
+    <script src="scripts/myscript.js"></script>
+</body>
+</html>
